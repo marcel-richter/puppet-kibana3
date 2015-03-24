@@ -8,6 +8,7 @@ class kibana3::params {
   $config_es_port       = '9200'
   $config_es_protocol   = 'http'
   $config_es_server     = '"+window.location.hostname+"'
+  $config_es_path       = ''
   $config_kibana_index  = 'kibana-int'
   $config_panel_names   = [
     'histogram',

@@ -79,6 +79,11 @@ The protocol (http/https) of the elasticsearch server. Because kibana3 is browse
 **Default:** _"+window.location.hostname+"_
 The FQDN of the elasticsearch server. Because kibana3 is browser based this must be accessible from the browser loading kibana3.
 
+#####`config_es_path`
+**Data Type:** _string_
+**Default:** _empty_
+A relative path to elasticsearch. With this option in use elasticsearch and kibana can run on the same host only separated by paths. This configuration approach avoids tricky CORS adjustments.
+
 #####`config_kibana_index`
 **Data Type:** _string_
 **Default:** _kibana-int_

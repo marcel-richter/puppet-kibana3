@@ -92,6 +92,7 @@ class kibana3 (
   $config_es_port       = $::kibana3::params::config_es_port,
   $config_es_protocol   = $::kibana3::params::config_es_protocol,
   $config_es_server     = $::kibana3::params::config_es_server,
+  $config_es_path       = $::kibana3::params::config_es_path,
   $config_kibana_index  = $::kibana3::params::config_kibana_index,
   $config_panel_names   = $::kibana3::params::config_panel_names,
 
